@@ -5,10 +5,10 @@
     
     <entry>
       <title>SLAM Platform</title>
-      <link href="/2023/02/25/SLAM-Platform/"/>
-      <url>/2023/02/25/SLAM-Platform/</url>
+      <link href="/2023/03/07/SLAM-Platform/"/>
+      <url>/2023/03/07/SLAM-Platform/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/9anFwO4L5PvDmhM.jpg" alt="slam platform.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I cooperated with some students at Peking University to build a slam platform. I am responsible for writing ROS drivers of all sensors, including fisheye camera, depth camera, GNSS, and radar. I also need to develop a circuit broad that capable of triggering all sensors synchronously. The paper is being written.</p><p><img src="https://s2.loli.net/2023/02/25/52lCOhFSJ7t9pWw.jpg" alt="framework.jpg"><br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/9anFwO4L5PvDmhM.jpg" alt="slam platform.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I collaborated with other students to build a SLAM (Simultaneous Localization and Mapping) platform. My role was primarily focused on the hardware aspect of the project. This involved writing ROS drivers for all of the sensors (fisheye camera, depth camera, GNSS, radar, and lidar), developing a circuit board capable of triggering all sensors synchronously, and designing the hardware structure. The paper is being written.</p><p><img src="https://s2.loli.net/2023/02/25/52lCOhFSJ7t9pWw.jpg" alt="framework.jpg"> </p>]]></content>
       
       
       <categories>
@@ -35,7 +35,7 @@
       <link href="/2023/02/25/Falling-cat-Quadruped-Robot/"/>
       <url>/2023/02/25/Falling-cat-Quadruped-Robot/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/MXZRV35dgQ6mvhy.jpg" alt="rviz.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>The falling cat problem inspires me, and I plan to complete my master’s career by developing a creative and challenging robot, a spinal quadruped robot that can flip in the air.<br>In order to accomplish this goal, not only the hardware and circuit but also the motors are specially customized this time. In the algorithm part, I intend to combine nonlinear MPC and deep reinforcement learning. Now the hardware has completed its design and manufacture, and the simulation preliminarily verified the feasibility of the algorithm.<br><img src="https://s2.loli.net/2023/02/25/T3nBb4XVqYSMuzL.png" alt="solidworks.PNG"></p><p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/MXZRV35dgQ6mvhy.jpg" alt="rviz.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>The falling cat problem inspires me, and I plan to complete my master’s career by developing a creative and challenging robot, a spinal quadruped robot that can flip in the air.<br>In order to accomplish this goal, not only the hardware and circuit but also the motors are specially customized this time. In the algorithm part, I intend to combine nonlinear MPC and deep reinforcement learning. Now the hardware has completed its design and manufacture, and the simulation preliminarily verified the feasibility of the algorithm.<br><img src="https://s2.loli.net/2023/02/25/T3nBb4XVqYSMuzL.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/03/06/juNZWFzXTxLea6Q.jpg" alt="SQ2.jpg"></p>]]></content>
       
       
       <categories>
@@ -64,7 +64,7 @@
       <link href="/2023/02/25/Spined-Quadruped-Robot/"/>
       <url>/2023/02/25/Spined-Quadruped-Robot/</url>
       
-        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/02/25/6sSPHVpQehIKMu2.jpg" alt="robot.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p><strong>Wanyue Li</strong>, Zida Zhou, Hui Cheng*, “Dynamic Locomotion of a Quadruped Robot with Active Spine via Model Predictive Control”, IEEE International Conference on Robotics and Automation (ICRA 2023) </p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I developed a 15 DoFs quadruped robot with three actuated spine joints. The robot can freely change its spinal posture while trotting at high speed. and present a convex MPC approach considering the movements of the spine. The paper has been accepted by ICRA 2023.  The link to the video is <a href="https://www.bilibili.com/video/BV1Ed4y1M7Zy">RAPID Lab</a>.</p><p>It was challenging because I had to do everything by myself except for the hardware structure design by an engineer. Since no one guided me, I spend a year and a half completing the robot  </p><!-- <iframe src="//player.bilibili.com/player.html?aid=your-video-aid&page=1&as_wide=1&high_quality=1&danmaku=0" width="100%" height="auto" frameborder="0" allowfullscreen></iframe> --><iframe src="//player.bilibili.com/player.html?aid=857476879&bvid=BV1nV4y1H7mY&cid=817247376&page=1" width="640" height="360" frameborder="0" allowfullscreen></iframe><p><img src="https://s2.loli.net/2023/02/25/MfKAa4UgBlo2WnT.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/02/25/3CA9PBUqv6saOtL.jpg" alt="assembling.jpg"></p><p><img src="https://s2.loli.net/2023/02/25/EARUDSiMjCPhNvx.png" alt="DoFs.PNG"><br><img src="https://s2.loli.net/2023/02/25/SxObCyVariqM5F8.png" alt="control framework.PNG"><br><img src="https://s2.loli.net/2023/02/25/Me2YpBHTGRWwPDl.jpg" alt="manuscript.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/02/25/6sSPHVpQehIKMu2.jpg" alt="robot.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p><strong>Wanyue Li</strong>, Zida Zhou, Hui Cheng*, “Dynamic Locomotion of a Quadruped Robot with Active Spine via Model Predictive Control”, IEEE International Conference on Robotics and Automation (ICRA 2023) </p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I developed a 15 DoFs quadruped robot with three actuated spine joints. The robot can freely change its spinal posture while trotting at high speed. and present a convex MPC approach considering the movements of the spine. The paper has been accepted by ICRA 2023.  The link to the video is <a href="https://www.bilibili.com/video/BV1Ed4y1M7Zy">RAPID Lab</a>.</p><iframe width="560" height="315" src="https://www.youtube.com/embed/BkEG_1_TQOw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p>It was challenging because I had to do everything by myself except for the hardware structure design by an engineer.</p><h4 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware:"></a><strong>Hardware:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/MfKAa4UgBlo2WnT.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/02/25/3CA9PBUqv6saOtL.jpg" alt="assembling.jpg"></p><h4 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm:"></a><strong>Algorithm:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/EARUDSiMjCPhNvx.png" alt="DoFs.PNG"><br><img src="https://s2.loli.net/2023/02/25/SxObCyVariqM5F8.png" alt="control framework.PNG"><br><img src="https://s2.loli.net/2023/02/25/Me2YpBHTGRWwPDl.jpg" alt="manuscript.jpg"></p>]]></content>
       
       
       <categories>
@@ -89,17 +89,23 @@
     
     
     <entry>
-      <title>Interest</title>
-      <link href="/2023/02/19/Interest/"/>
-      <url>/2023/02/19/Interest/</url>
+      <title>Visual Inspection</title>
+      <link href="/2023/02/25/Visual%20Inspection/"/>
+      <url>/2023/02/25/Visual%20Inspection/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/03/06/34LDJ7rAjvY21XZ.png" alt="robot.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>When grinding pulley shapes using a machine, residues are sometimes left behind, which can significantly hinder the processing of subsequent parts. To address this issue, I developed a visual inspection device that uses morphology to detect such residues and subsequently inform the machine to stop.</p><iframe width="560" height="315" src="https://www.youtube.com/embed/Kyay1c6GN3w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p>I received this project during my junior years and used C# and Halcon due to their convenience in development. I have now open-sourced the project, and you can access the source code at <a href="https://github.com/liwanyue123/Visual-Detection-Halcon">https://github.com/liwanyue123/Visual-Detection-Halcon</a>.</p><!-- <iframe src="//player.bilibili.com/player.html?aid=your-video-aid&page=1&as_wide=1&high_quality=1&danmaku=0" width="100%" height="auto" frameborder="0" allowfullscreen></iframe> -->]]></content>
       
+      
+      <categories>
+          
+          <category> computer vision </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> Interest </tag>
+            <tag> computer vision </tag>
             
         </tags>
       
@@ -108,36 +114,17 @@
     
     
     <entry>
-      <title>CV</title>
-      <link href="/2023/02/19/CV/"/>
-      <url>/2023/02/19/CV/</url>
+      <title>Interest</title>
+      <link href="/2023/02/19/Interest/"/>
+      <url>/2023/02/19/Interest/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> CV </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Publication</title>
-      <link href="/2023/02/19/Publication/"/>
-      <url>/2023/02/19/Publication/</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><!-- ![robot.jpg](https://s2.loli.net/2023/03/06/RC4xyaZuKI6gUjl.jpg) --><!-- #### **Description:** --><!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Kyay1c6GN3w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> --><p><img src="https://s2.loli.net/2023/03/06/RC4xyaZuKI6gUjl.jpg" alt="3D model_3.jpg"><br><img src="https://s2.loli.net/2023/03/06/thI6iTqOpY7FJoc.png" alt="3D model_1.PNG"><br><img src="https://s2.loli.net/2023/03/06/O9bkiJ6ImKq7Myg.png" alt="3D model_2.PNG"><br><img src="https://s2.loli.net/2023/03/06/EYwPmxcy2R5BCeW.jpg" alt="graffiti.jpg"><br><img src="https://s2.loli.net/2023/03/06/cZ9lG3pzySDTdRv.jpg" alt="Iron-Smelting Furnace_1.jpg"><br><img src="https://s2.loli.net/2023/03/06/V6Z9ukxv25jlHD3.jpg" alt="Iron-Smelting Furnace_2.jpg"><br><img src="https://s2.loli.net/2023/03/06/DOiAgP9G6MbJsEK.jpg" alt="Iron-Smelting Furnace_3.jpg"></p>]]></content>
       
       
       
         <tags>
             
-            <tag> Publication </tag>
+            <tag> Interest </tag>
             
         </tags>
       
