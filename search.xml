@@ -4,40 +4,11 @@
   
     
     <entry>
-      <title>Spined Quadruped Robot</title>
-      <link href="/2023/02/26/Spined-Quadruped-Robot/"/>
-      <url>/2023/02/26/Spined-Quadruped-Robot/</url>
-      
-        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/02/25/6sSPHVpQehIKMu2.jpg" alt="robot.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p><strong>Wanyue Li</strong>, Zida Zhou, Hui Cheng*, “Dynamic Locomotion of a Quadruped Robot with Active Spine via Model Predictive Control”, IEEE International Conference on Robotics and Automation (ICRA 2023) </p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I developed a 15 DoFs quadruped robot with three actuated spine joints. The robot can freely change its spinal posture while trotting at high speed. and present a convex MPC approach considering the movements of the spine. The paper has been accepted by ICRA 2023.  The link to the video is <a href="https://www.bilibili.com/video/BV1Ed4y1M7Zy">RAPID Lab</a>.</p><iframe width="560" height="315" src="https://www.youtube.com/embed/BkEG_1_TQOw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p>It was challenging because I had to do everything by myself except for the hardware structure design by an engineer.</p><h4 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware:"></a><strong>Hardware:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/MfKAa4UgBlo2WnT.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/02/25/3CA9PBUqv6saOtL.jpg" alt="assembling.jpg"></p><h4 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm:"></a><strong>Algorithm:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/EARUDSiMjCPhNvx.png" alt="DoFs.PNG"><br><img src="https://s2.loli.net/2023/02/25/SxObCyVariqM5F8.png" alt="control framework.PNG"><br><img src="https://s2.loli.net/2023/02/25/Me2YpBHTGRWwPDl.jpg" alt="manuscript.jpg"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Spined quadruped robot </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Dynamics </tag>
-            
-            <tag> Control </tag>
-            
-            <tag> Bionics </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Bouncing Quadrotor</title>
-      <link href="/2023/02/26/Bouncing-Quadcopter/"/>
-      <url>/2023/02/26/Bouncing-Quadcopter/</url>
+      <link href="/2023/07/01/Bouncing-Quadcopter/"/>
+      <url>/2023/07/01/Bouncing-Quadcopter/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/07/04/EafKPUZsOvDchLN.jpg" alt="UAV2.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p>The paper is currently being written and will soon be submitted to RAL.</p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>We have developed a Quadrotor with a passive spring capable of advancing through jumping, aiming to achieve energy efficiency, What is more, the robot have sensor, navigate, and avoiding obstacles function.</p><h4 id="Responsiblity"><a href="#Responsiblity" class="headerlink" title="Responsiblity:"></a><strong>Responsiblity:</strong></h4><p>I am responsible for developing the entire control system of the drone.<br>My main objective is to design a controller that enables the quadrotor to maintain the desired state even after a heavy impact with the ground, as well as accurately track the desired trajectory.</p><p>In the process, I attempted to migrate the Representation-Free MPC from the quadruped field to the drone.<br>This was possible because both systems are based on a single rigid body model.<br>I have open-sourced the code for this migration, which can be accessed at: <a href="https://github.com/liwanyue123/RF-MPC-UAV">https://github.com/liwanyue123/RF-MPC-UAV</a>.</p><p>However, due to the quadrotor’s underactuated nature and differential flatness property, I ultimately implemented NMPC using ACADOS.</p><h4 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm:"></a><strong>Algorithm:</strong></h4><p><img src="https://s2.loli.net/2023/07/04/xRkuZaO3ilXnGTD.gif" alt="UAV.gif"></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/07/04/EafKPUZsOvDchLN.jpg" alt="UAV2.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p>The paper is currently being written and will soon be submitted to RAL.</p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>We have developed a Quadrotor equipped with a passive spring that enables it to advance through jumping, with a primary focus on achieving energy efficiency. Furthermore, the robot is equipped with a D435i sensor and possesses the ability to navigate and avoid obstacles.</p><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>I am responsible for the development of the entire control system for the quadrotor. My primary goal is to design a controller that allows the quadrotor to maintain its desired state even after a significant impact with the ground, while also accurately tracking the desired trajectory.</p><p>In the process, I attempted to migrate the Representation-Free MPC from the quadruped field to the drone.<br>This was possible because both systems are based on a single rigid body model.<br>I have made the code for this adaptation open-source,  which can be accessed at: <a href="https://github.com/liwanyue123/RF-MPC-UAV">https://github.com/liwanyue123/RF-MPC-UAV</a>.</p><p>However, due to the quadrotor’s underactuated nature and differential flatness property, I ultimately decided to implement NMPC using ACADOS.</p><h4 id="Demonstration"><a href="#Demonstration" class="headerlink" title="Demonstration:"></a><strong>Demonstration:</strong></h4><p><img src="https://s2.loli.net/2023/07/04/xRkuZaO3ilXnGTD.gif" alt="UAV.gif"><br><img src="https://s2.loli.net/2023/07/05/d1QjwLmc6VWBn7v.jpg" alt="optitrick.jpg"></p>]]></content>
       
       
       <categories>
@@ -63,10 +34,66 @@
     
     <entry>
       <title>Falling-cat Quadruped Robot</title>
-      <link href="/2023/02/25/Falling-cat-Quadruped-Robot/"/>
-      <url>/2023/02/25/Falling-cat-Quadruped-Robot/</url>
+      <link href="/2023/03/25/Falling-cat-Quadruped-Robot/"/>
+      <url>/2023/03/25/Falling-cat-Quadruped-Robot/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/MXZRV35dgQ6mvhy.jpg" alt="rviz.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>The falling cat problem inspires me, and I plan to complete my master’s career by developing a creative and challenging robot, a spinal quadruped robot that can flip in the air.<br>In order to accomplish this goal, not only the hardware and circuit but also the motors are specially customized this time. In the algorithm part, I intend to combine nonlinear MPC and deep reinforcement learning. Now the hardware has completed its design and manufacture, and the simulation preliminarily verified the feasibility of the algorithm.<br><img src="https://s2.loli.net/2023/02/25/T3nBb4XVqYSMuzL.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/03/06/juNZWFzXTxLea6Q.jpg" alt="SQ2.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/MXZRV35dgQ6mvhy.jpg" alt="rviz.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>The falling cat problem inspires me, and I am thrilled to undertake the development of a creative and challenging robot, a spinal quadruped robot that can flip in the air.<br>In order to accomplish this goal, not only the hardware and circuit but also the motors are specially customized this time. In the algorithm part, I intend to combine nonlinear MPC and deep reinforcement learning.</p><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>As I am about to graduate, the project has turned into a topic for guiding the next group of students.</p><h4 id="Demonstration"><a href="#Demonstration" class="headerlink" title="Demonstration:"></a><strong>Demonstration:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/T3nBb4XVqYSMuzL.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/03/06/juNZWFzXTxLea6Q.jpg" alt="SQ2.jpg"><br><img src="https://s2.loli.net/2023/07/05/alYpVgFXsM6irQw.gif" alt="fallingCat.gif" style="max-width: 200px;"><br><img src="https://s2.loli.net/2023/07/05/4HAZRTbiBV2DtWU.gif" alt="issac.gif" style="max-width: 400px;"> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spined quadruped robot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Dynamics </tag>
+            
+            <tag> Control </tag>
+            
+            <tag> Bionics </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SLAM Platform</title>
+      <link href="/2023/03/20/SLAM-Platform/"/>
+      <url>/2023/03/20/SLAM-Platform/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/07/04/51dBYvci2qgfRXw.jpg" alt="SLAM_CAR1.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p>Junren Sun, Fanchen Meng, <strong>Wanyue Li</strong>, Xin Meng, Bocheng Zhu*,”A Robust, Real-time, Tightly Coupled GNSS-Visual-Inertial Navigation System”,IEEE Transactions on Intelligent Transportation Systems (T-ITS)(under review)</p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I collaborated with some students from Peking University to build a SLAM platform. To address the issue of insufficient or complete loss of GNSS positioning accuracy due to satellite signal blockage and multipath effects when entering urban high-rise areas or underground parking lots, we propose a positioning solution that combines GNSS, fisheye cameras, and binocular cameras.</p><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>My role was primarily focused on the hardware aspect of the project. This involved writing ROS drivers for all of the sensors (fisheye camera, depth camera, GNSS, radar, and lidar), developing a circuit board capable of triggering all sensors synchronously, and designing the hardware structure. The paper is being written.<br><img src="https://s2.loli.net/2023/03/20/rBc6tLpsSm3gDXZ.jpg" alt="slam platform.jpg"><br><img src="https://s2.loli.net/2023/03/20/ahTW463LXMgbOSu.jpg" alt="slamCar2.jpg"></p><h4 id="System-Overlook"><a href="#System-Overlook" class="headerlink" title="System Overlook:"></a><strong>System Overlook:</strong></h4><p><img src="https://s2.loli.net/2023/03/10/BE8sbYSk7pRHGIJ.jpg" alt="framework.jpg"></p><h4 id="Wiring-Diagram"><a href="#Wiring-Diagram" class="headerlink" title="Wiring Diagram:"></a><strong>Wiring Diagram:</strong></h4><p><img src="https://s2.loli.net/2023/03/10/baMyCQckq43dDKr.png" alt="connet.PNG"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> SLAM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Drivers </tag>
+            
+            <tag> Sencing </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Spined Quadruped Robot</title>
+      <link href="/2023/02/26/Spined-Quadruped-Robot/"/>
+      <url>/2023/02/26/Spined-Quadruped-Robot/</url>
+      
+        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/02/25/6sSPHVpQehIKMu2.jpg" alt="robot.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p><strong>Wanyue Li</strong>, Zida Zhou, Hui Cheng*, “Dynamic Locomotion of a Quadruped Robot with Active Spine via Model Predictive Control”, IEEE International Conference on Robotics and Automation (ICRA 2023) </p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I developed a 15 DoFs quadruped robot with three actuated spine joints. The robot can freely change its spinal posture while trotting at high speed. and present a convex MPC approach considering the movements of the spine. The paper has been accepted by ICRA 2023.  The link to the video is <a href="https://www.bilibili.com/video/BV1Ed4y1M7Zy">RAPID Lab</a>.</p><iframe width="560" height="315" src="https://www.youtube.com/embed/BkEG_1_TQOw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>I took on the majority of the project tasks independently, with the exception of the structural design, which was handled by an engineer.</p><h4 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware:"></a><strong>Hardware:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/MfKAa4UgBlo2WnT.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/02/25/3CA9PBUqv6saOtL.jpg" alt="assembling.jpg"></p><h4 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm:"></a><strong>Algorithm:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/EARUDSiMjCPhNvx.png" alt="DoFs.PNG"><br><img src="https://s2.loli.net/2023/02/25/SxObCyVariqM5F8.png" alt="control framework.PNG"><br><img src="https://s2.loli.net/2023/02/25/Me2YpBHTGRWwPDl.jpg" alt="manuscript.jpg"></p>]]></content>
       
       
       <categories>
@@ -92,10 +119,10 @@
     
     <entry>
       <title>Visual Inspection</title>
-      <link href="/2023/02/25/Visual%20Inspection/"/>
-      <url>/2023/02/25/Visual%20Inspection/</url>
+      <link href="/2018/12/25/Visual%20Inspection/"/>
+      <url>/2018/12/25/Visual%20Inspection/</url>
       
-        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/03/06/34LDJ7rAjvY21XZ.png" alt="robot.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>When grinding pulley shapes using a machine, residues are sometimes left behind, which can significantly hinder the processing of subsequent parts. To address this issue, I developed a visual inspection device that uses morphology to detect such residues and subsequently inform the machine to stop.</p><iframe width="560" height="315" src="https://www.youtube.com/embed/Kyay1c6GN3w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p>I received this project during my junior years and used C# and Halcon due to their convenience in development. I have now open-sourced the project, and you can access the source code at <a href="https://github.com/liwanyue123/Visual-Detection-Halcon">https://github.com/liwanyue123/Visual-Detection-Halcon</a>.</p><!-- <iframe src="//player.bilibili.com/player.html?aid=your-video-aid&page=1&as_wide=1&high_quality=1&danmaku=0" width="100%" height="auto" frameborder="0" allowfullscreen></iframe> -->]]></content>
+        <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/03/06/34LDJ7rAjvY21XZ.png" alt="robot.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>When grinding pulley shapes using a machine, residues are sometimes left behind, which can significantly hinder the processing of subsequent parts. To address this issue, I developed a visual inspection device that uses morphology to detect such residues and subsequently inform the machine to stop.</p><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>I received this project during my junior years and completed the entire development process independently. I used C# and Halcon due to their convenience in development.</p><h4 id="Demonstration"><a href="#Demonstration" class="headerlink" title="Demonstration:"></a><strong>Demonstration:</strong></h4><iframe width="560" height="315" src="https://www.youtube.com/embed/Kyay1c6GN3w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>I have now open-sourced the project, and you can access the source code at https://github.com/liwanyue123/Visual-Detection-Halcon.<!-- <iframe src="//player.bilibili.com/player.html?aid=your-video-aid&page=1&as_wide=1&high_quality=1&danmaku=0" width="100%" height="auto" frameborder="0" allowfullscreen></iframe> -->]]></content>
       
       
       <categories>
@@ -116,36 +143,9 @@
     
     
     <entry>
-      <title>SLAM Platform</title>
-      <link href="/2023/02/20/SLAM-Platform/"/>
-      <url>/2023/02/20/SLAM-Platform/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/07/04/51dBYvci2qgfRXw.jpg" alt="SLAM_CAR1.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p>Junren Sun, Fanchen Meng, <strong>Wanyue Li</strong>, Xin Meng, Bocheng Zhu*,   “A Robust, Real-time, Tightly Coupled GNSS-Visual-Inertial Navigation System”,IEEE Transactions on Intelligent Transportation Systems (T-ITS)()</p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I collaborated with other students to build a SLAM (Simultaneous Localization and Mapping) platform. My role was primarily focused on the hardware aspect of the project. This involved writing ROS drivers for all of the sensors (fisheye camera, depth camera, GNSS, radar, and lidar), developing a circuit board capable of triggering all sensors synchronously, and designing the hardware structure. The paper is being written.<br><img src="https://s2.loli.net/2023/03/20/rBc6tLpsSm3gDXZ.jpg" alt="slam platform.jpg"><br><img src="https://s2.loli.net/2023/03/20/ahTW463LXMgbOSu.jpg" alt="slamCar2.jpg"></p><h4 id="System-Overlook"><a href="#System-Overlook" class="headerlink" title="System Overlook:"></a><strong>System Overlook:</strong></h4><p><img src="https://s2.loli.net/2023/03/10/BE8sbYSk7pRHGIJ.jpg" alt="framework.jpg"></p><h4 id="Wiring-Diagram"><a href="#Wiring-Diagram" class="headerlink" title="Wiring Diagram:"></a><strong>Wiring Diagram:</strong></h4><p><img src="https://s2.loli.net/2023/03/10/baMyCQckq43dDKr.png" alt="connet.PNG"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> SLAM </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Drivers </tag>
-            
-            <tag> Sencing </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Interest</title>
-      <link href="/2023/02/19/Interest/"/>
-      <url>/2023/02/19/Interest/</url>
+      <link href="/2017/02/19/Interest/"/>
+      <url>/2017/02/19/Interest/</url>
       
         <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><!-- ![robot.jpg](https://s2.loli.net/2023/03/06/RC4xyaZuKI6gUjl.jpg) --><!-- #### **Description:** --><!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Kyay1c6GN3w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> --><p><img src="https://s2.loli.net/2023/03/06/RC4xyaZuKI6gUjl.jpg" alt="3D model_3.jpg"><br><img src="https://s2.loli.net/2023/03/06/thI6iTqOpY7FJoc.png" alt="3D model_1.PNG"><br><img src="https://s2.loli.net/2023/03/06/O9bkiJ6ImKq7Myg.png" alt="3D model_2.PNG"><br><img src="https://s2.loli.net/2023/03/06/EYwPmxcy2R5BCeW.jpg" alt="graffiti.jpg"><br><img src="https://s2.loli.net/2023/03/10/rouza4lGWAEOTfd.jpg" alt="painting.jpg"><br><img src="https://s2.loli.net/2023/03/06/cZ9lG3pzySDTdRv.jpg" alt="Iron-Smelting Furnace_1.jpg"><br><img src="https://s2.loli.net/2023/03/06/V6Z9ukxv25jlHD3.jpg" alt="Iron-Smelting Furnace_2.jpg"><br><img src="https://s2.loli.net/2023/03/06/DOiAgP9G6MbJsEK.jpg" alt="Iron-Smelting Furnace_3.jpg"></p>]]></content>
       
