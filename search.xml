@@ -33,35 +33,6 @@
     
     
     <entry>
-      <title>Falling-cat Quadruped Robot</title>
-      <link href="/2023/03/25/Falling-cat-Quadruped-Robot/"/>
-      <url>/2023/03/25/Falling-cat-Quadruped-Robot/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/MXZRV35dgQ6mvhy.jpg" alt="rviz.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>The falling cat problem inspires me, and I am thrilled to undertake the development of a creative and challenging robot, a spinal quadruped robot that can flip in the air.<br>In order to accomplish this goal, not only the hardware and circuit but also the motors are specially customized this time. In the algorithm part, I intend to combine nonlinear MPC and deep reinforcement learning.</p><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>As I am about to graduate, the project has turned into a topic for guiding the next group of students.</p><h4 id="Demonstration"><a href="#Demonstration" class="headerlink" title="Demonstration:"></a><strong>Demonstration:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/T3nBb4XVqYSMuzL.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/03/06/juNZWFzXTxLea6Q.jpg" alt="SQ2.jpg"><br><img src="https://s2.loli.net/2023/07/05/alYpVgFXsM6irQw.gif" alt="fallingCat.gif" style="max-width: 200px;"><br><img src="https://s2.loli.net/2023/07/05/4HAZRTbiBV2DtWU.gif" alt="issac.gif" style="max-width: 400px;"> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Spined quadruped robot </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Dynamics </tag>
-            
-            <tag> Control </tag>
-            
-            <tag> Bionics </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>SLAM Platform</title>
       <link href="/2023/03/20/SLAM-Platform/"/>
       <url>/2023/03/20/SLAM-Platform/</url>
@@ -89,9 +60,38 @@
     
     
     <entry>
+      <title>Falling-cat Quadruped Robot</title>
+      <link href="/2023/01/25/Falling-cat-Quadruped-Robot/"/>
+      <url>/2023/01/25/Falling-cat-Quadruped-Robot/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/02/25/MXZRV35dgQ6mvhy.jpg" alt="rviz.jpg"></p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>The falling cat problem inspires me, and I am thrilled to undertake the development of a creative and challenging robot, a spinal quadruped robot that can flip in the air.<br>In order to accomplish this goal, not only the hardware and circuit but also the motors are specially customized this time. In the algorithm part, I intend to combine nonlinear MPC and deep reinforcement learning.</p><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>As I am about to graduate, the project has turned into a topic for guiding the next group of students.</p><h4 id="Demonstration"><a href="#Demonstration" class="headerlink" title="Demonstration:"></a><strong>Demonstration:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/T3nBb4XVqYSMuzL.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/03/06/juNZWFzXTxLea6Q.jpg" alt="SQ2.jpg"><br><img src="https://s2.loli.net/2023/07/05/alYpVgFXsM6irQw.gif" alt="fallingCat.gif" style="max-width: 200px;"><br><img src="https://s2.loli.net/2023/07/05/4HAZRTbiBV2DtWU.gif" alt="issac.gif" style="max-width: 400px;"> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spined quadruped robot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Dynamics </tag>
+            
+            <tag> Control </tag>
+            
+            <tag> Bionics </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Spined Quadruped Robot</title>
-      <link href="/2023/02/26/Spined-Quadruped-Robot/"/>
-      <url>/2023/02/26/Spined-Quadruped-Robot/</url>
+      <link href="/2022/09/16/Spined-Quadruped-Robot/"/>
+      <url>/2022/09/16/Spined-Quadruped-Robot/</url>
       
         <content type="html"><![CDATA[<!-- <img src="https://i.ibb.co/RYWQtgj/3.jpg" class=""><img src="https://www.imgpp.com/s1/2023/02/22/overlook.jpg" class=""> --><!-- F:\Blog\source\_posts\Spined-Quadruped-Robot --><!-- <img src="https://i.postimg.cc/13cvdN00/3.jpg" alt="your-image-description" style="max-width:100%"> --><!-- [![3.jpg](https://i.postimg.cc/13cvdN00/3.jpg)](https://postimg.cc/k2GN6GpD) --><p><img src="https://s2.loli.net/2023/02/25/6sSPHVpQehIKMu2.jpg" alt="robot.jpg"></p><h4 id="Publication"><a href="#Publication" class="headerlink" title="Publication:"></a><strong>Publication:</strong></h4><p><strong>Wanyue Li</strong>, Zida Zhou, Hui Cheng*, “Dynamic Locomotion of a Quadruped Robot with Active Spine via Model Predictive Control”, IEEE International Conference on Robotics and Automation (ICRA 2023) </p><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a><strong>Description:</strong></h4><p>I developed a 15 DoFs quadruped robot with three actuated spine joints. The robot can freely change its spinal posture while trotting at high speed. and present a convex MPC approach considering the movements of the spine. The paper has been accepted by ICRA 2023.  The link to the video is <a href="https://www.bilibili.com/video/BV1Ed4y1M7Zy">RAPID Lab</a>.</p><iframe width="560" height="315" src="https://www.youtube.com/embed/BkEG_1_TQOw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><h4 id="Responsibilities"><a href="#Responsibilities" class="headerlink" title="Responsibilities:"></a><strong>Responsibilities:</strong></h4><p>I took on the majority of the project tasks independently, with the exception of the structural design, which was handled by an engineer.</p><h4 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware:"></a><strong>Hardware:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/MfKAa4UgBlo2WnT.png" alt="solidworks.PNG"><br><img src="https://s2.loli.net/2023/02/25/3CA9PBUqv6saOtL.jpg" alt="assembling.jpg"></p><h4 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm:"></a><strong>Algorithm:</strong></h4><p><img src="https://s2.loli.net/2023/02/25/EARUDSiMjCPhNvx.png" alt="DoFs.PNG"><br><img src="https://s2.loli.net/2023/02/25/SxObCyVariqM5F8.png" alt="control framework.PNG"><br><img src="https://s2.loli.net/2023/02/25/Me2YpBHTGRWwPDl.jpg" alt="manuscript.jpg"></p>]]></content>
       
