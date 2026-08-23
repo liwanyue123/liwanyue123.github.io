@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bouncing Quadrotor — Wanyue Li</title>
+<meta name="description" content="A quadrotor with a passive spring leg that travels by bouncing, for the energy it saves.">
+<meta name="author" content="Wanyue Li">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wanyue Li">
+<meta property="og:title" content="Bouncing Quadrotor — Wanyue Li">
+<meta property="og:description" content="A quadrotor with a passive spring leg that travels by bouncing, for the energy it saves.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body><nav class="nav">
+  <a class="nav__brand" href="/"><span class="nav__mark" aria-hidden="true"></span>Wanyue Li</a>
+  <div class="nav__links">
+    <a class="nav__link" href="/#work" data-spy="work">Work</a>
+    <a class="nav__link nav__link--hide-sm" href="/#publications" data-spy="publications">Publications</a>
+    <a class="nav__link" href="/#about" data-spy="about">About</a>
+    <a class="nav__link nav__link--hide-sm" href="/beyond/">Beyond</a>
+    <a class="nav__link" href="/assets/cv/wanyue-li-cv-en.pdf">CV</a>
+  </div>
+</nav>
+<main>
+<header class="p-hero">
+  <div class="p-hero__bg" aria-hidden="true">
+    <img src="/assets/img/Quadrotor/main-md.jpg" srcset="/assets/img/Quadrotor/main-sm.jpg 640w, /assets/img/Quadrotor/main-md.jpg 1100w, /assets/img/Quadrotor/main-lg.jpg 1800w" sizes="100vw" alt="" class="" loading="eager" decoding="async" style="object-position:50% 38%">
+  </div>
+  <div class="p-hero__inner wrap">
+    <a class="back-link" href="/#work">&larr; All work</a>
+    <p class="eyebrow" style="margin-top:1.25rem">2023 &middot; Aerial Robotics</p>
+    <h1 class="p-hero__title">Bouncing Quadrotor</h1>
+    <p class="lead">A quadrotor that saves energy by refusing to stay in the air. A passive spring leg lets it advance in hops, with onboard sensing to find its way between them.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="p-body">
+    <dl class="p-meta"><div class="p-meta__item"><dt>Year</dt><dd>2023</dd></div><div class="p-meta__item"><dt>Role</dt><dd>Control system, end to end</dd></div><div class="p-meta__item"><dt>Context</dt><dd>RAPID Lab, Sun Yat-sen University</dd></div><div class="p-meta__item"><dt>Focus</dt><dd>Dynamics, Control, Quadrotor</dd></div></dl>
+    <div class="prose"><h2>Overview</h2><p>We developed a quadrotor with a <strong>passive spring</strong>, enabling energy-efficient jumping-flying rather than continuous powered flight. The robot carries a <strong>D435i</strong> depth camera and can autonomously navigate and evade obstacles.</p><h2>My role</h2><p>I was responsible for developing the entire control system. The primary goal was to let the quadrotor accurately track its desired trajectory <strong>even after a significant impact with the ground</strong>.</p><p>In the process I adapted and migrated the algorithm from the quadruped domain into the aerial one — feasible because both rest on the same foundation: a <strong>single rigid body model</strong>.</p><h2>Gallery</h2><figure class="media "><img src="/assets/img/Quadrotor/system-md.jpg" srcset="/assets/img/Quadrotor/system-sm.jpg 640w, /assets/img/Quadrotor/system-md.jpg 1100w, /assets/img/Quadrotor/system-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="System architecture" class="" loading="lazy" decoding="async"><figcaption>System architecture</figcaption></figure><figure class="media"><div class="embed"><iframe src="https://player.bilibili.com/player.html?aid=961550826&bvid=BV1SH4y1o71D&cid=1282078705&p=1&high_quality=1" title="Jumping-flying trials" loading="lazy" scrolling="no" frameborder="0" allowfullscreen></iframe></div><figcaption>Jumping-flying trials</figcaption></figure><div class="media media--pair"><figure><img src="/assets/img/Quadrotor/demo.gif" alt="Bounce sequence" class="" loading="lazy" decoding="async"><figcaption>Bounce sequence</figcaption></figure><figure><img src="/assets/img/Quadrotor/optitrack-md.jpg" srcset="/assets/img/Quadrotor/optitrack-sm.jpg 640w, /assets/img/Quadrotor/optitrack-md.jpg 1100w, /assets/img/Quadrotor/optitrack-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 45vw" alt="Motion-capture arena" class="" loading="lazy" decoding="async"><figcaption>Motion-capture arena</figcaption></figure></div></div>
+  </div>
+</div>
+
+<nav class="p-next wrap"><a href="/work/xpeng-biped/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">&larr; Previous</p><p class="p-next__title">XPENG Biped Robot</p></div></a><a class="is-end" href="/work/slam-platform/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">Next &rarr;</p><p class="p-next__title">SLAM Platform</p></div></a></nav>
+</main>
+<footer class="footer wrap">
+  <span>&copy; <span data-year>2026</span> Wanyue Li</span>
+  <span>Hong Kong</span>
+  <a href="https://github.com/liwanyue123" rel="noopener">GitHub &nearr;</a>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MGDP — Generalized Depth Perception — Wanyue Li</title>
+<meta name="description" content="A depth-perception model for quadruped locomotion that carries across nine different robots instead of being retrained for each one.">
+<meta name="author" content="Wanyue Li">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wanyue Li">
+<meta property="og:title" content="MGDP — Generalized Depth Perception — Wanyue Li">
+<meta property="og:description" content="A depth-perception model for quadruped locomotion that carries across nine different robots instead of being retrained for each one.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body><nav class="nav">
+  <a class="nav__brand" href="/"><span class="nav__mark" aria-hidden="true"></span>Wanyue Li</a>
+  <div class="nav__links">
+    <a class="nav__link" href="/#work" data-spy="work">Work</a>
+    <a class="nav__link nav__link--hide-sm" href="/#publications" data-spy="publications">Publications</a>
+    <a class="nav__link" href="/#about" data-spy="about">About</a>
+    <a class="nav__link nav__link--hide-sm" href="/beyond/">Beyond</a>
+    <a class="nav__link" href="/assets/cv/wanyue-li-cv-en.pdf">CV</a>
+  </div>
+</nav>
+<main>
+<header class="p-hero">
+  <div class="p-hero__bg" aria-hidden="true">
+    <img src="/assets/img/MGDP/cover-md.jpg" srcset="/assets/img/MGDP/cover-sm.jpg 640w, /assets/img/MGDP/cover-md.jpg 1100w, /assets/img/MGDP/cover-lg.jpg 1800w" sizes="100vw" alt="" class="" loading="eager" decoding="async" style="object-position:50% 45%">
+  </div>
+  <div class="p-hero__inner wrap">
+    <a class="back-link" href="/#work">&larr; All work</a>
+    <p class="eyebrow" style="margin-top:1.25rem">2026 &middot; Perceptive Locomotion</p>
+    <h1 class="p-hero__title">MGDP — Generalized Depth Perception</h1>
+    <p class="lead">Perception models for legged robots are usually welded to the robot they were trained on. MGDP separates the two, so the same perception front-end fine-tunes onto a new machine quickly.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="p-body">
+    <dl class="p-meta"><div class="p-meta__item"><dt>Year</dt><dd>2026</dd></div><div class="p-meta__item"><dt>Role</dt><dd>Co-author</dd></div><div class="p-meta__item"><dt>Context</dt><dd>ArcLab, HKU</dd></div><div class="p-meta__item"><dt>Focus</dt><dd>Reinforcement Learning, Perception, Adv. Sci.</dd></div><div class="p-meta__item"><dt>Links</dt><dd><a href="https://arclab-hku.github.io/MGDP/" rel="noopener">Project page &nearr;</a><br><a href="https://github.com/arclab-hku/MGDP" rel="noopener">Code on GitHub &nearr;</a><br><a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202524345" rel="noopener">Wiley Online Library &nearr;</a></dd></div></dl>
+    <div class="prose"><h2>Overview</h2><p>MGDP is a perception-based deep reinforcement learning framework for quadruped locomotion. It uses a <strong>contrastive learning mechanism</strong> to extract highly generalized, low-dimensional terrain feature representations from multi-modal inputs — depth images and height maps — combined with an <strong>explicit depth-map denoising mechanism</strong>.</p><p>Terrain-adaptive reward functions modulate penalty strength according to terrain characteristics, which lets the policy acquire complex locomotion skills — climbing, jumping, crawling, squeezing — in a <strong>single training stage, without distillation</strong>.</p><h2>Results</h2><p>The pre-trained, dynamics-decoupled perception model fine-tunes quickly across quadruped morphologies. It was evaluated on <strong>nine distinct robots</strong> — A1, B1, Go1, Go2, Lite3, Spot, Aliengo, ANYmal C and Mini Cheetah — which despite large differences in dimensions and dynamics all traversed challenging terrain under the framework.</p><h2>Publication</h2>
+<article class="pub" style="border-top:1px solid var(--line)">
+  <span class="pub__idx">[1]</span>
+  <div>
+    <h3 class="pub__title">MGDP: Mastering a Generalized Depth Perception Model for Quadruped Locomotion</h3>
+    <p class="pub__authors">Yinzhao Dong, Ji Ma, Yidan Lu, Jiahui Zhang, <span class="me">Wanyue Li</span>, Yeke Chen, Xuechao Chen, Zhangguo Yu, Peng Lu</p>
+    <p class="pub__venue"><span class="chip">Advanced Science 2026</span>
+    <span class="chip chip--accepted">Published</span></p>
+  </div>
+</article><h2>Gallery</h2><figure class="media"><div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/yOGQvbQMUKE" title="Nine quadrupeds, one perception model" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><figcaption>Nine quadrupeds, one perception model</figcaption></figure><figure class="media "><img src="/assets/img/MGDP/framework-md.jpg" srcset="/assets/img/MGDP/framework-sm.jpg 640w, /assets/img/MGDP/framework-md.jpg 1100w, /assets/img/MGDP/framework-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="Framework" class="" loading="lazy" decoding="async"><figcaption>Framework</figcaption></figure></div>
+  </div>
+</div>
+
+<nav class="p-next wrap"><a class="is-end" href="/work/football-kicking/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">Next &rarr;</p><p class="p-next__title">STOFT — Football Kicking</p></div></a></nav>
+</main>
+<footer class="footer wrap">
+  <span>&copy; <span data-year>2026</span> Wanyue Li</span>
+  <span>Hong Kong</span>
+  <a href="https://github.com/liwanyue123" rel="noopener">GitHub &nearr;</a>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

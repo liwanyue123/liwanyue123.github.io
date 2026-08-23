@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SLAM Platform — Wanyue Li</title>
+<meta name="description" content="GNSS fused with fisheye and binocular vision, to hold position where satellites cannot be trusted.">
+<meta name="author" content="Wanyue Li">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wanyue Li">
+<meta property="og:title" content="SLAM Platform — Wanyue Li">
+<meta property="og:description" content="GNSS fused with fisheye and binocular vision, to hold position where satellites cannot be trusted.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body><nav class="nav">
+  <a class="nav__brand" href="/"><span class="nav__mark" aria-hidden="true"></span>Wanyue Li</a>
+  <div class="nav__links">
+    <a class="nav__link" href="/#work" data-spy="work">Work</a>
+    <a class="nav__link nav__link--hide-sm" href="/#publications" data-spy="publications">Publications</a>
+    <a class="nav__link" href="/#about" data-spy="about">About</a>
+    <a class="nav__link nav__link--hide-sm" href="/beyond/">Beyond</a>
+    <a class="nav__link" href="/assets/cv/wanyue-li-cv-en.pdf">CV</a>
+  </div>
+</nav>
+<main>
+<header class="p-hero">
+  <div class="p-hero__bg" aria-hidden="true">
+    <img src="/assets/img/SLAM/main-md.jpg" srcset="/assets/img/SLAM/main-sm.jpg 640w, /assets/img/SLAM/main-md.jpg 1100w, /assets/img/SLAM/main-lg.jpg 1800w" sizes="100vw" alt="" class="" loading="eager" decoding="async" style="object-position:50% 55%">
+  </div>
+  <div class="p-hero__inner wrap">
+    <a class="back-link" href="/#work">&larr; All work</a>
+    <p class="eyebrow" style="margin-top:1.25rem">2023 &middot; State Estimation</p>
+    <h1 class="p-hero__title">SLAM Platform</h1>
+    <p class="lead">GNSS fails exactly where you need it most: between high-rises, under a car park. This platform pairs it with fisheye and binocular vision so the position survives the gap.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="p-body">
+    <dl class="p-meta"><div class="p-meta__item"><dt>Year</dt><dd>2023</dd></div><div class="p-meta__item"><dt>Role</dt><dd>Hardware & sensor drivers</dd></div><div class="p-meta__item"><dt>Context</dt><dd>with Peking University</dd></div><div class="p-meta__item"><dt>Focus</dt><dd>Drivers, Sensing, GNSS</dd></div></dl>
+    <div class="prose"><h2>Overview</h2><p>I collaborated with students from Peking University to develop a SLAM platform. The project addresses the degradation — or complete loss — of GNSS positioning accuracy caused by <strong>satellite signal blockage and multipath effects</strong> in urban high-rise areas and underground parking lots. Our answer is a positioning solution that fuses GNSS with <strong>fisheye and binocular cameras</strong>.</p><h2>My role</h2><p>My work was centred on the hardware. I wrote the <strong>ROS drivers</strong> for the full sensor suite — fisheye cameras, depth cameras, GNSS, radar and lidar — and designed a <strong>circuit board capable of triggering every sensor synchronously</strong>.</p><h2>Gallery</h2><div class="media media--pair"><figure><img src="/assets/img/SLAM/mast-md.jpg" srcset="/assets/img/SLAM/mast-sm.jpg 640w, /assets/img/SLAM/mast-md.jpg 1100w, /assets/img/SLAM/mast-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 45vw" alt="Sensor mast" class="" loading="lazy" decoding="async"><figcaption>Sensor mast</figcaption></figure><figure><img src="/assets/img/SLAM/lab-md.jpg" srcset="/assets/img/SLAM/lab-sm.jpg 640w, /assets/img/SLAM/lab-md.jpg 1100w, /assets/img/SLAM/lab-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 45vw" alt="Platform in the lab" class="" loading="lazy" decoding="async"><figcaption>Platform in the lab</figcaption></figure></div><figure class="media "><img src="/assets/img/SLAM/framework-md.jpg" srcset="/assets/img/SLAM/framework-sm.jpg 640w, /assets/img/SLAM/framework-md.jpg 1100w, /assets/img/SLAM/framework-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="System overview" class="" loading="lazy" decoding="async"><figcaption>System overview</figcaption></figure><figure class="media "><img src="/assets/img/SLAM/wiring-md.jpg" srcset="/assets/img/SLAM/wiring-sm.jpg 640w, /assets/img/SLAM/wiring-md.jpg 1100w, /assets/img/SLAM/wiring-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="Wiring and synchronous triggering" class="" loading="lazy" decoding="async"><figcaption>Wiring and synchronous triggering</figcaption></figure></div>
+  </div>
+</div>
+
+<nav class="p-next wrap"><a href="/work/bouncing-quadrotor/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">&larr; Previous</p><p class="p-next__title">Bouncing Quadrotor</p></div></a><a class="is-end" href="/work/spined-quadruped/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">Next &rarr;</p><p class="p-next__title">Spined Quadruped Robot</p></div></a></nav>
+</main>
+<footer class="footer wrap">
+  <span>&copy; <span data-year>2026</span> Wanyue Li</span>
+  <span>Hong Kong</span>
+  <a href="https://github.com/liwanyue123" rel="noopener">GitHub &nearr;</a>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

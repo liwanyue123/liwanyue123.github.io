@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spined Quadruped Robot — Wanyue Li</title>
+<meta name="description" content="Yat-sen Lion — a 15-DoF quadruped whose actuated spine is written into the MPC model.">
+<meta name="author" content="Wanyue Li">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wanyue Li">
+<meta property="og:title" content="Spined Quadruped Robot — Wanyue Li">
+<meta property="og:description" content="Yat-sen Lion — a 15-DoF quadruped whose actuated spine is written into the MPC model.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body><nav class="nav">
+  <a class="nav__brand" href="/"><span class="nav__mark" aria-hidden="true"></span>Wanyue Li</a>
+  <div class="nav__links">
+    <a class="nav__link" href="/#work" data-spy="work">Work</a>
+    <a class="nav__link nav__link--hide-sm" href="/#publications" data-spy="publications">Publications</a>
+    <a class="nav__link" href="/#about" data-spy="about">About</a>
+    <a class="nav__link nav__link--hide-sm" href="/beyond/">Beyond</a>
+    <a class="nav__link" href="/assets/cv/wanyue-li-cv-en.pdf">CV</a>
+  </div>
+</nav>
+<main>
+<header class="p-hero">
+  <div class="p-hero__bg" aria-hidden="true">
+    <img src="/assets/img/SpinedQuadruped/main-md.jpg" srcset="/assets/img/SpinedQuadruped/main-sm.jpg 640w, /assets/img/SpinedQuadruped/main-md.jpg 1100w, /assets/img/SpinedQuadruped/main-lg.jpg 1800w" sizes="100vw" alt="" class="" loading="eager" decoding="async" style="object-position:50% 50%">
+  </div>
+  <div class="p-hero__inner wrap">
+    <a class="back-link" href="/#work">&larr; All work</a>
+    <p class="eyebrow" style="margin-top:1.25rem">2022 &middot; Legged Locomotion</p>
+    <h1 class="p-hero__title">Spined Quadruped Robot</h1>
+    <p class="lead">Most quadruped controllers treat the trunk as one rigid body. This one has a spine that moves, and an MPC formulation that knows it.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="p-body">
+    <dl class="p-meta"><div class="p-meta__item"><dt>Year</dt><dd>2022</dd></div><div class="p-meta__item"><dt>Role</dt><dd>Everything but the structural design</dd></div><div class="p-meta__item"><dt>Context</dt><dd>RAPID Lab, Sun Yat-sen University</dd></div><div class="p-meta__item"><dt>Focus</dt><dd>Dynamics, Control, Bionics, ICRA 2023</dd></div><div class="p-meta__item"><dt>Links</dt><dd><a href="https://www.bilibili.com/video/BV1Ed4y1M7Zy" rel="noopener">Lab video on Bilibili &nearr;</a></dd></div></dl>
+    <div class="prose"><h2>Overview</h2><p>I developed a <strong>15-DoF quadruped robot with three actuated spine joints</strong>. The robot can freely change its spinal posture while trotting at high speed.</p><p>The control contribution is a <strong>convex MPC approach that accounts for the movement of the spine</strong>, rather than modelling the trunk as a single rigid segment. The paper was accepted at ICRA 2023.</p><h2>My role</h2><p>I took on the majority of the project tasks independently, with the exception of the structural design, which was handled by an engineer — hardware, electronics, control formulation, implementation and experiments.</p><h2>Gallery</h2><figure class="media"><div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/BkEG_1_TQOw" title="Trotting with active spine" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><figcaption>Trotting with active spine</figcaption></figure><div class="media media--pair"><figure><img src="/assets/img/SpinedQuadruped/cad-md.jpg" srcset="/assets/img/SpinedQuadruped/cad-sm.jpg 640w, /assets/img/SpinedQuadruped/cad-md.jpg 1100w, /assets/img/SpinedQuadruped/cad-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 45vw" alt="CAD assembly" class="" loading="lazy" decoding="async"><figcaption>CAD assembly</figcaption></figure><figure><img src="/assets/img/SpinedQuadruped/assembly-md.jpg" srcset="/assets/img/SpinedQuadruped/assembly-sm.jpg 640w, /assets/img/SpinedQuadruped/assembly-md.jpg 1100w, /assets/img/SpinedQuadruped/assembly-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 45vw" alt="Build" class="" loading="lazy" decoding="async"><figcaption>Build</figcaption></figure></div><figure class="media "><img src="/assets/img/SpinedQuadruped/dofs-md.jpg" srcset="/assets/img/SpinedQuadruped/dofs-sm.jpg 640w, /assets/img/SpinedQuadruped/dofs-md.jpg 1100w, /assets/img/SpinedQuadruped/dofs-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="Degrees of freedom" class="" loading="lazy" decoding="async"><figcaption>Degrees of freedom</figcaption></figure><figure class="media "><img src="/assets/img/SpinedQuadruped/framework-md.jpg" srcset="/assets/img/SpinedQuadruped/framework-sm.jpg 640w, /assets/img/SpinedQuadruped/framework-md.jpg 1100w, /assets/img/SpinedQuadruped/framework-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="Control framework" class="" loading="lazy" decoding="async"><figcaption>Control framework</figcaption></figure><figure class="media media--tall"><img src="/assets/img/SpinedQuadruped/notes-md.jpg" srcset="/assets/img/SpinedQuadruped/notes-sm.jpg 640w, /assets/img/SpinedQuadruped/notes-md.jpg 1100w, /assets/img/SpinedQuadruped/notes-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="Working notes" class="" loading="lazy" decoding="async"><figcaption>Working notes</figcaption></figure></div>
+  </div>
+</div>
+
+<nav class="p-next wrap"><a href="/work/slam-platform/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">&larr; Previous</p><p class="p-next__title">SLAM Platform</p></div></a></nav>
+</main>
+<footer class="footer wrap">
+  <span>&copy; <span data-year>2026</span> Wanyue Li</span>
+  <span>Hong Kong</span>
+  <a href="https://github.com/liwanyue123" rel="noopener">GitHub &nearr;</a>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

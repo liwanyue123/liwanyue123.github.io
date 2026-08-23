@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MILD — Walking on Ground That Yields — Wanyue Li</title>
+<meta name="description" content="A physics-grounded contact solver that makes yielding terrain tractable to simulate, plus a terrain-aware controller trained on it.">
+<meta name="author" content="Wanyue Li">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wanyue Li">
+<meta property="og:title" content="MILD — Walking on Ground That Yields — Wanyue Li">
+<meta property="og:description" content="A physics-grounded contact solver that makes yielding terrain tractable to simulate, plus a terrain-aware controller trained on it.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body><nav class="nav">
+  <a class="nav__brand" href="/"><span class="nav__mark" aria-hidden="true"></span>Wanyue Li</a>
+  <div class="nav__links">
+    <a class="nav__link" href="/#work" data-spy="work">Work</a>
+    <a class="nav__link nav__link--hide-sm" href="/#publications" data-spy="publications">Publications</a>
+    <a class="nav__link" href="/#about" data-spy="about">About</a>
+    <a class="nav__link nav__link--hide-sm" href="/beyond/">Beyond</a>
+    <a class="nav__link" href="/assets/cv/wanyue-li-cv-en.pdf">CV</a>
+  </div>
+</nav>
+<main>
+<header class="p-hero">
+  <div class="p-hero__bg" aria-hidden="true">
+    <img src="/assets/img/MILD/main-md.jpg" srcset="/assets/img/MILD/main-sm.jpg 640w, /assets/img/MILD/main-md.jpg 1100w, /assets/img/MILD/main-lg.jpg 1800w" sizes="100vw" alt="" class="" loading="eager" decoding="async" style="object-position:50% 50%">
+  </div>
+  <div class="p-hero__inner wrap">
+    <a class="back-link" href="/#work">&larr; All work</a>
+    <p class="eyebrow" style="margin-top:1.25rem">2025 &middot; Bipedal Locomotion</p>
+    <h1 class="p-hero__title">MILD — Walking on Ground That Yields</h1>
+    <p class="lead">Sand, mud, snow. Bipeds struggle on ground that gives way, largely because the simulators they are trained in do not model it. MILD starts there.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="p-body">
+    <dl class="p-meta"><div class="p-meta__item"><dt>Year</dt><dd>2025</dd></div><div class="p-meta__item"><dt>Role</dt><dd>Co-author</dd></div><div class="p-meta__item"><dt>Context</dt><dd>ArcLab, HKU</dd></div><div class="p-meta__item"><dt>Focus</dt><dd>Simulation, Reinforcement Learning, IEEE RA-L</dd></div><div class="p-meta__item"><dt>Links</dt><dd><a href="https://ieeexplore.ieee.org/document/11302803" rel="noopener">IEEE Xplore &nearr;</a><br><a href="https://www.youtube.com/watch?v=80Zg2vUkM7A" rel="noopener">Demo video &nearr;</a></dd></div></dl>
+    <div class="prose"><h2>Overview</h2><p>Enabling robots to walk on yielding terrain matters for everything from disaster response to planetary exploration. Bipedal robots hold real potential there, but their locomotion on deformable surfaces remains limited — current simulators fail to capture the <strong>spatiotemporal heterogeneity</strong> of such yielding substrates.</p><p>MILD introduces a <strong>physics-grounded discrete-element contact solver</strong> that accurately simulates spatially varying foot–terrain interactions. Alongside it, a <strong>terrain-aware locomotion controller</strong> is trained via deep reinforcement learning with latent modulation and proprioceptive estimation.</p><h2>Results</h2><p>Quantitative comparison against state-of-the-art methods shows the approach generates more diverse and more realistic contact scenarios.</p><h2>Publication</h2>
+<article class="pub" style="border-top:1px solid var(--line)">
+  <span class="pub__idx">[1]</span>
+  <div>
+    <h3 class="pub__title">MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces</h3>
+    <p class="pub__authors">Zeren Luo, Jiahui Zhang, Zhe Xu, <span class="me">Wanyue Li</span>, Xinqi Li, Xuechao Chen, Zhangguo Yu, Annan Tang, Peng Lu*</p>
+    <p class="pub__venue"><span class="chip">IEEE Robotics and Automation Letters (RA-L 2025)</span>
+    <span class="chip chip--accepted">Published</span></p>
+  </div>
+</article><h2>Gallery</h2><figure class="media"><div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/80Zg2vUkM7A" title="Walking on deformable ground" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><figcaption>Walking on deformable ground</figcaption></figure><figure class="media "><img src="/assets/img/MILD/main-md.jpg" srcset="/assets/img/MILD/main-sm.jpg 640w, /assets/img/MILD/main-md.jpg 1100w, /assets/img/MILD/main-lg.jpg 1800w" sizes="(max-width:900px) 100vw, 68vw" alt="Discrete-element contact model — granular substrates, friction cone, drag on the bottom surface" class="" loading="lazy" decoding="async"><figcaption>Discrete-element contact model — granular substrates, friction cone, drag on the bottom surface</figcaption></figure></div>
+  </div>
+</div>
+
+<nav class="p-next wrap"><a href="/work/football-kicking/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">&larr; Previous</p><p class="p-next__title">STOFT — Football Kicking</p></div></a><a class="is-end" href="/work/marg-gap-terrain/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">Next &rarr;</p><p class="p-next__title">MARG — Risky Gap Terrains</p></div></a></nav>
+</main>
+<footer class="footer wrap">
+  <span>&copy; <span data-year>2026</span> Wanyue Li</span>
+  <span>Hong Kong</span>
+  <a href="https://github.com/liwanyue123" rel="noopener">GitHub &nearr;</a>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

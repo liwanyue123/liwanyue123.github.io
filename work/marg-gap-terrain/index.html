@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MARG — Risky Gap Terrains — Wanyue Li</title>
+<meta name="description" content="Elevation maps fused with proprioception so a legged robot can pick footholds across gaps — with the map built from a single LiDAR.">
+<meta name="author" content="Wanyue Li">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wanyue Li">
+<meta property="og:title" content="MARG — Risky Gap Terrains — Wanyue Li">
+<meta property="og:description" content="Elevation maps fused with proprioception so a legged robot can pick footholds across gaps — with the map built from a single LiDAR.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body><nav class="nav">
+  <a class="nav__brand" href="/"><span class="nav__mark" aria-hidden="true"></span>Wanyue Li</a>
+  <div class="nav__links">
+    <a class="nav__link" href="/#work" data-spy="work">Work</a>
+    <a class="nav__link nav__link--hide-sm" href="/#publications" data-spy="publications">Publications</a>
+    <a class="nav__link" href="/#about" data-spy="about">About</a>
+    <a class="nav__link nav__link--hide-sm" href="/beyond/">Beyond</a>
+    <a class="nav__link" href="/assets/cv/wanyue-li-cv-en.pdf">CV</a>
+  </div>
+</nav>
+<main>
+<header class="p-hero">
+  <div class="p-hero__bg" aria-hidden="true">
+    <img src="/assets/img/MARG/terrains-md.jpg" srcset="/assets/img/MARG/terrains-sm.jpg 640w, /assets/img/MARG/terrains-md.jpg 1100w, /assets/img/MARG/terrains-lg.jpg 1800w" sizes="100vw" alt="" class="" loading="eager" decoding="async" style="object-position:50% 50%">
+  </div>
+  <div class="p-hero__inner wrap">
+    <a class="back-link" href="/#work">&larr; All work</a>
+    <p class="eyebrow" style="margin-top:1.25rem">2025 &middot; Perceptive Locomotion</p>
+    <h1 class="p-hero__title">MARG — Risky Gap Terrains</h1>
+    <p class="lead">Blind locomotion controllers fall into holes. MARG gives the policy a terrain map and asks it to choose where to put its feet.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="p-body">
+    <dl class="p-meta"><div class="p-meta__item"><dt>Year</dt><dd>2025</dd></div><div class="p-meta__item"><dt>Role</dt><dd>Co-author</dd></div><div class="p-meta__item"><dt>Context</dt><dd>ArcLab, HKU</dd></div><div class="p-meta__item"><dt>Focus</dt><dd>Reinforcement Learning, Elevation Mapping, IEEE T-RO</dd></div><div class="p-meta__item"><dt>Links</dt><dd><a href="https://astrorix.github.io/MARG/" rel="noopener">Project page &nearr;</a><br><a href="https://arxiv.org/abs/2509.20036" rel="noopener">arXiv:2509.20036 &nearr;</a><br><a href="https://ieeexplore.ieee.org/document/11196002" rel="noopener">IEEE Xplore &nearr;</a></dd></div></dl>
+    <div class="prose"><h2>Overview</h2><p>Existing blind locomotion controllers often struggle to ensure safe, efficient traversal of <strong>risky gap terrains</strong>, which are highly complex and require the robot to perceive terrain accurately and select appropriate footholds while moving.</p><p>MARG is a deep reinforcement learning controller that <strong>integrates terrain maps with proprioception</strong> to dynamically adjust its action and improve stability. Its terrain mapping model (TMG) relies on a <strong>single LiDAR</strong> to generate accurate terrain maps, which keeps hardware deployment simple.</p><h2>Results</h2><p>Experiments show the MARG controller is stable and effective across risky tasks, balancing safety, stability and efficiency during locomotion.</p><h2>Publication</h2>
+<article class="pub" style="border-top:1px solid var(--line)">
+  <span class="pub__idx">[1]</span>
+  <div>
+    <h3 class="pub__title">MARG: MAstering Risky Gap Terrains for Legged Robots with Elevation Mapping</h3>
+    <p class="pub__authors">Yinzhao Dong, Ji Ma, Liu Zhao, <span class="me">Wanyue Li</span>, Peng Lu*</p>
+    <p class="pub__venue"><span class="chip">IEEE Transactions on Robotics (T-RO 2025), 41:6123–6139</span>
+    <span class="chip chip--accepted">Published</span></p>
+  </div>
+</article><h2>Gallery</h2><figure class="media"><div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/cVeQD845ER0" title="Crossing risky gap terrain" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><figcaption>Crossing risky gap terrain</figcaption></figure></div>
+  </div>
+</div>
+
+<nav class="p-next wrap"><a href="/work/mild-deformable-terrain/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">&larr; Previous</p><p class="p-next__title">MILD — Walking on Ground That Yields</p></div></a><a class="is-end" href="/work/rm-planner/"><div class="wrap" style="padding-inline:0"><p class="p-next__label">Next &rarr;</p><p class="p-next__title">RM-Planner — Mobile Manipulation</p></div></a></nav>
+</main>
+<footer class="footer wrap">
+  <span>&copy; <span data-year>2026</span> Wanyue Li</span>
+  <span>Hong Kong</span>
+  <a href="https://github.com/liwanyue123" rel="noopener">GitHub &nearr;</a>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
