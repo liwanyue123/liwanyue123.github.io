@@ -54,8 +54,8 @@ present so Jekyll does not touch the output.
   `_src/img/` (originals) and served from `assets/img/` as resized, progressive
   JPEGs. If you want a smaller repo you can delete `_src/img/` — but then the
   originals exist nowhere else.
-- **Profile content comes from the CV** (`assets/cv/`, English version authoritative —
-  the Chinese one omits the PNDbotics role). Education, experience, honors, the six
+- **Profile content comes from the CV** (`assets/cv/`, English version authoritative).
+  Education, experience, honors, the six
   publications and the skills list all live in the data blocks at the top of
   `_src/build.py`.
 - **Selected work is split into two groups**: doctoral research at ArcLab, HKU

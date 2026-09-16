@@ -37,8 +37,6 @@ EDU = [
 
 # --------------------------------------------------------------- experience --
 EXPERIENCE = [
-    ("2026.04 — present", "PNDbotics", "Robotics Algorithm Research Intern",
-     "Developing dynamics-based interactive motion retargeting algorithms for humanoid robots."),
     ("2023.07 — 2024.02", "XPENG Robotics", "Motion Control Algorithm Developer",
      "Fully participated in the development of motion control algorithms for XPENG’s "
      "first-generation bipedal robot, PX5."),
